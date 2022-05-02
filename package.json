@@ -1,0 +1,33 @@
+{
+  "name": "@phatnguyenuit/sample-typescript",
+  "version": "1.0.0",
+  "description": "This is sample TypeScript project to demonstrate how I configure ESLint to sort imports automatically",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "lint": "eslint --ext .ts ./src",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "keywords": ["typescript", "eslint", "sort", "import"],
+  "author": "PhatNguyen <phatnt.uit@gmail.com> (https://phatnguyenuit.github.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/lodash": "^4.14.181",
+    "@types/node": "^17.0.24",
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.0",
+    "lodash": "^4.17.21",
+    "uuid": "^8.3.2"
+  }
+}
