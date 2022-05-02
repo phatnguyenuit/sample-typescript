@@ -7,6 +7,23 @@ Have you ever thought about how to sort imports in TypeScript projects automatic
 
 Let me show you how to archive sorting imports **automatically** in **TypeScript** projects with **ESLint**!
 
+<br>
+
+![Auto sort import demo](./auto-sort-imports.gif)
+
+<br>
+
+## Table of contents
+
+- [How to sort imports like a pro in TypeScript](#how-to-sort-imports-like-a-pro-in-typescript)
+  - [Table of contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [First steps with ESLint](#first-steps-with-eslint)
+  - [Configure ESLint to sort imports](#configure-eslint-to-sort-imports)
+  - [Configure VSCode to sort imports automatically](#configure-vscode-to-sort-imports-automatically)
+  - [Conclusion](#conclusion)
+  - [References](#references)
+
 
 ## Prerequisites
 
