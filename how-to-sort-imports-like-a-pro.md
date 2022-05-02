@@ -1,7 +1,7 @@
 # How to sort imports like a pro in TypeScript
 
-Crossing reviews becomes a very common activity today in the engineering behavior. To help us reviews changes for pull/merge requests easier, **sorting imports** can help us a much. 
-The codebase becomes more professional, more consistency, reviewers will be happier, and the review process will be faster, focus on the implementation changes **ONLY**.
+Crossing reviews becomes a very common activity today in engineering behavior. To help us reviews changes for pull/merge requests easier, **sorting imports** can help us a much. 
+The codebase becomes more professional and more consistent, reviewers will be happier, and the review process will be faster, focusing on the implementation changes **ONLY**.
 
 Have you ever thought about how to sort imports in TypeScript projects automatically?
 
@@ -9,7 +9,9 @@ Let me show you how to archive sorting imports **automatically** in **TypeScript
 
 <br>
 
-![Auto sort import demo](./tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg)
+![Photo by Tim van der Kuip on Unsplash](https://user-images.githubusercontent.com/19201982/166242797-f49744ea-4165-4eee-bb67-5407c06e2ec4.jpg)
+
+> Photo by [Tim van der Kuip](https://unsplash.com/@timmykp) on [Unsplash](https://unsplash.com)
 
 <br>
 
@@ -28,7 +30,7 @@ Let me show you how to archive sorting imports **automatically** in **TypeScript
 ## Prerequisites
 
 - Have **TypeScript** projects
-- Have some basic knowledge about ESLint - a JavaScript linting tool
+- Have some basic knowledge about **ESLint** - a JavaScript linting tool
 - Have time to go through all steps in this article 😀
 
 ## First steps with ESLint
@@ -39,7 +41,7 @@ Let me show you how to archive sorting imports **automatically** in **TypeScript
 yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin prettier eslint-config-prettier eslint-plugin-prettier
 ```
 
-- Create `eslint` base configuration for TypeScript project
+- Create `eslint` the base configuration for TypeScript project
 
 **.eslintrc.js** file
 
@@ -108,7 +110,7 @@ module.exports = {
 
  - Configure `import` rules
 
-   In this step, we configure the order of our imports. There are two important information. There are `groups` indicates how we get import statement sorted, and `alphabetize` indicates how we sort import lines by alphabet
+   In this step, we configure the order of our imports. There are two important pieces of information. There are `groups` which indicates how we get import statements sorted, and `alphabetize` which indicates how we sort import lines by alphabet
 
    Now, let's update the current ESLint configuration by adding new `import` rules
 
@@ -226,13 +228,13 @@ Now you just run ONLY one single command `yarn lint:fix` to fix all coding style
 
 <br>
 
-![Auto sort import demo](./auto-sort-imports.gif)
+![Auto sort import demo](https://user-images.githubusercontent.com/19201982/166242730-e1447e73-0a73-400b-b6a2-b9a653908677.gif)
 
 <br>
 
 ## Conclusion
 
-To sum of all of the steps we need to get our TypeScript project imports sorted automatically, there are 3 steps:
+To sum up, all of the steps we need to get our TypeScript project imports sorted automatically, there are 3 steps:
 
 - Configure ESLint base for our TypeScript project
 - Configure ESLint to sort imports
@@ -249,3 +251,5 @@ See you next time!
 - [ESLint `import` plugin](https://github.com/import-js/eslint-plugin-import)
 - [ESLint `import` TypeScript resolver plugin](https://github.com/alexgorbatchev/eslint-import-resolver-typescript)
 - [My sample TypeScript project](https://github.com/phatnguyenuit/sample-typescript)
+
+> This article is also published on: [How to sort imports like a pro in TypeScript (github.com)](https://gist.github.com/phatnguyenuit/149094cb3a28e30f5f4c891d264bf7e6)
