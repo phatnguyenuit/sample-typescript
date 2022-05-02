@@ -9,7 +9,7 @@ Let me show you how to archive sorting imports **automatically** in **TypeScript
 
 <br>
 
-![Auto sort import demo](./auto-sort-imports.gif)
+![Auto sort import demo](./tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg)
 
 <br>
 
@@ -223,6 +223,12 @@ You can add new script command to run sort imports manually
 ```
 
 Now you just run ONLY one single command `yarn lint:fix` to fix all coding style issues catch by ESLint. Easy work, right? 😁
+
+<br>
+
+![Auto sort import demo](./auto-sort-imports.gif)
+
+<br>
 
 ## Conclusion
 
