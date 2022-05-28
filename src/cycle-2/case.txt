@@ -1,0 +1,4 @@
+module-a
+    - module-b -> (level 1)
+        - module-c -> (level 2)
+            - module-a

@@ -49,6 +49,7 @@ module.exports = {
         },
       },
     ],
+    'import/no-cycle': 'error',
   },
   settings: {
     'import/resolver': {
