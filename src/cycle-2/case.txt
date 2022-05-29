@@ -1,3 +1,6 @@
+# Indirect reference
+module-a -> module-b -> module-c -> module-a
+
 module-a
     - module-b -> (level 1)
         - module-c -> (level 2)
