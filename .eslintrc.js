@@ -59,3 +59,7 @@ module.exports = {
     },
   },
 };
+
+// References:
+// https://github.com/import-js/eslint-plugin-import/blob/v2.20.1/docs/rules/order.md
+// https://github.com/import-js/eslint-plugin-import/blob/v2.20.1/docs/rules/no-cycle.md
